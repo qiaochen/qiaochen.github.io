@@ -1,10 +1,11 @@
 layout: page
 title: "呓语录·制茶"
-permalink: /mumbling/zhicha/
+date: 2016-09-26 18:00:00 -0000
+categories: 呓语 胡思乱想 饥渴
 
 ## 呓语录·制茶
 
-![图片来自网络](figure1.jpg)
+![图片来自网络](/img/zhicha/figure1.jpg)
 
 当天幕还只是在边角泛出微微辉光的时候，胡采英便已开始凝身于山间采茶了。
 待他把那副与自身年龄相差悬殊的老花镜往鼻翼上一推，整个世界仿佛就只剩下他眼前的那一抹绿。

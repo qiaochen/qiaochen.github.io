@@ -1,3 +1,7 @@
+layout: page
+title: "呓语录·制茶"
+permalink: /mumbling/zhicha/
+
 ## 呓语录·制茶
 
 ![图片来自网络](figure1.jpg)

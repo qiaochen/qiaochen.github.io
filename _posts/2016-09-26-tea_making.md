@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "呓语录·制茶"
 date: 2016-09-26 18:00:00 -0000
 categories: 呓语 胡思乱想 饥渴

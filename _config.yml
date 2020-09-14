@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Chen Qiao (乔辰/喬辰) # add your name
-author-img: chenqiao.jpg# add your photo
+author-img: chenqiao.jpg # add your photo
 about-author: Researcher/Engineer interested in Machine Learning and NLP. In addition to writing codes for making sense of data, I write texts to appreciate life and nature. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle

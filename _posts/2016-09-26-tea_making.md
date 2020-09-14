@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: post
 title: "呓语录·制茶"
 date: 2016-09-26 18:00:00 -0000
-categories: 呓语 胡思乱想 饥渴
+description: 制一壶沁人心脾的茶 # Add post description (optional)
+img: /zhicha/figure1.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [呓语, 胡思乱想, 饥渴]
 ---
 
 ## 呓语录·制茶

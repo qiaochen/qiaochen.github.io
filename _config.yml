@@ -2,18 +2,18 @@ title: Chen Qiao's Blog
 description: > # this means to ignore newlines until "baseurl:"
   Hope you would know me better with the stuff here.
 permalink: ':title/'
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://qiaochen.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Chen Qiao (乔辰/喬辰) # add your name
 author-img: # add your photo
-about-author: In addition to writing codes for making sense of data, I write texts to appreciate life and nature. # add description
+about-author: Researcher/Engineer interested in Machine Learning and NLP. In addition to writing codes for making sense of data, I write texts to appreciate life and nature. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
+social-github: qiaochen # add your Github handle
+social-linkedin: cqiaohku # add your Linkedin handle
 social-email: # add your Email address
 
 # Disqus

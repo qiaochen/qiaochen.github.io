@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "在夜月邂逅橘黄色辉光的路口"
-date: 2016-09-26 18:00:00 -0000
+date: 2017-02-12 18:00:00 -0000
 description: 送走月光的十字路口 # Add post description (optional)
 img: /moonLight/fig19.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)

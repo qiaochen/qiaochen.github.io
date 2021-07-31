@@ -3,14 +3,15 @@ layout: post
 title: "在夜月邂逅橘黄色辉光的路口"
 date: 2017-02-12 18:00:00 -0000
 description: 送走月光的十字路口 # Add post description (optional)
-img: /moonLight/fig19.png # Add image post (optional)
+img: /moonLight/fig13.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [落羽, 邂逅, 离别, 终结]
 ---
 
 月羽将把我遗忘，\
 在月色第三次邂逅橘黄色辉光的路口。
-***
+
+---
 
 ### 第一个月夜
 
@@ -98,7 +99,8 @@ tags: [落羽, 邂逅, 离别, 终结]
 眺望曾经走出山道的那个路口。 \
 月羽拉着我的背包缎带， \
 望着月色下海面的那道伤口。
-***
+
+---
 
 ### 第二个月夜
 

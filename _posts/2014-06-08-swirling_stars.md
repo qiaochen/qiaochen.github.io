@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "呓语录·星辰的漩涡"
-date: 2017-06-18 18:00:00 -0000
+date: 2014-06-08 18:00:00 -0000
 description: 梦一场星辰的漩涡 # Add post description (optional)
 img: /swirlingStars/fig1_pingzhou.jpg # Add image post (optional)
 fig-caption: 摄于东坪洲，夜之星辰漩涡的窗口 # Add figcaption (optional)
@@ -249,7 +249,7 @@ E小调让她感受到忧伤，
 
 
 
-2017年6月18日 迁入简书并配照片
+2017年6月18日 迁入并配照片
 写于2014年6月8日 
 福竹小区 上海
 

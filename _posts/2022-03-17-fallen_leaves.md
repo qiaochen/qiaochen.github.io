@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "春日落叶祭"
-date: 2022-3-17 18:00:00 -0000
+date: 2022-03-17 18:00:00 -0000
 description: # Add post description (optional)
 img: /fallen_leaves/leaf_but.jpg # Add image post (optional)
 fig-caption: 图片来自网络 # Add figcaption (optional)
@@ -44,9 +44,12 @@ tags: [轮回, 宿命, 生死, 希望]
 捡起你，带你走入花园，<br>
 把你放在一只同样死在春日里的蝴蝶身旁。
 
+---
+2022年3月17日
+
 ![image](https://user-images.githubusercontent.com/5159030/158731372-3d7a6e79-26a0-4534-a1c5-e68b86a7d8c2.png)
 
 
-2022年3月17日
+
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "春日落叶祭"
 date: 2022-03-17 18:00:00 -0000
 description: # Add post description (optional)
-img:  # Add image post (optional)
+img: /fallen_leaves/leaf_but.jpg # Add image post (optional)
 fig-caption: 图片来自网络 # Add figcaption (optional)
 tags: [轮回, 宿命, 生死, 希望]
 ---

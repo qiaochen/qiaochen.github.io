@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "山海游记·赤漠迷城"
+title: "山海历奇·赤漠迷城"
 date: 2022-07-24 09:00:00 -0000
 description: # Add post description (optional)
 img: /red_island/ridge.jpg # Add image post (optional)
@@ -9,7 +9,7 @@ tags: [山海, 离岛, 探险, 独木舟]
 ---
 
 
-## 山海游记·赤漠迷城
+## 山海历奇·赤漠迷城
 
 大暑，湿热交蒸。<br>
 你还做着关于山海的梦。<br>

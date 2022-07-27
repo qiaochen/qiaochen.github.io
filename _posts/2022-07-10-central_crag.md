@@ -11,7 +11,7 @@ tags: [山海, 攀石, 中环岩场]
 
 ## 山海历奇·兰桂坊之上，兰桂坊之下
 
-<img src="/img/central_crag/north_ridge2.jpg" alt="drawing" width="400"/>
+<img src="/img/central_crag/north_ridge.jpg" alt="drawing" width="400"/>
 
 当深色海浪无声将日暮吞没，<br>
 城市亮起灯火续写夜的生活。<br>
@@ -30,8 +30,7 @@ tags: [山海, 攀石, 中环岩场]
 直到到达顶点，回眸一笑—— <br>
 你便成为了离我们最近的星星。
 
-<img src="/img/central_crag/star.jpg" alt="drawing" width="400"/>
-
+<img src="/img/central_crag/north_ridge.jpg" alt="drawing" width="200"/>
 
 Climbing, <br>
 in the darkness, <br>
@@ -41,7 +40,7 @@ turning back, <br>
 through the shadow of floating clouds,  <br>
 You shine like a star closest to our eyes. <br>
 
-
+<img src="/img/central_crag/star.jpg" alt="drawing" width="300"/>
 
 ---
 Central crag, Soho

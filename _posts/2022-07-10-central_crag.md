@@ -51,6 +51,7 @@ Central crag, Soho
 
 ![](/img/central_crag/me.jpg)
 ![](/img/central_crag/bel.jpg)
+![](/img/central_crag/me2.jpg)
 ![](/img/central_crag/jun.jpg)
 ![](/img/central_crag/bel2.jpg)
 ![](/img/central_crag/city1.jpg)

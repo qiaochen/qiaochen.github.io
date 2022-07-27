@@ -30,7 +30,7 @@ tags: [山海, 攀石, 中环岩场]
 直到到达顶点，回眸一笑—— <br>
 你便成为了离我们最近的星星。
 
-<img src="/img/central_crag/north_ridge.jpg" alt="drawing" width="200"/>
+<img src="/img/central_crag/north_ridge2.jpg" alt="drawing" width="300"/>
 
 Climbing, <br>
 in the darkness, <br>

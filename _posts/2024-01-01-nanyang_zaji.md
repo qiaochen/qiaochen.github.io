@@ -3,7 +3,7 @@ layout: post
 title: "山海历奇·南洋雜錦"
 date: 2024-05-24 09:00:00 -0000
 description: # Add post description (optional)
-img: /red_island/ridge.jpg # Add image post (optional)
+img: /nanyang/Cover_car.png # Add image post (optional)
 fig-caption: 摄于旅途 # Add figcaption (optional)
 tags: [山海, 酷熱, 雲, 廢墟, 热带雨林]
 ---

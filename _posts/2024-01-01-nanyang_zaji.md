@@ -33,11 +33,8 @@ tags: [山海, 酷熱, 雲, 廢墟, 热带雨林]
 我只是在漫无目的地找寻中稍驻，<br>
 妄图倾听沉默的死者的声音。<br>
 
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  blah |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
-|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
-|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
+![雨林中定格的🍜，于华人坟场](/img/nanyang/ThePast.png)
+
 
 ---
 >2024年3月30日<br>
@@ -85,6 +82,9 @@ tags: [山海, 酷熱, 雲, 廢墟, 热带雨林]
 下一世的你，<br>
 将会在天空中幻化出怎样的残存印记？<br>
 
+
+![南洋的云朵](/img/nanyang/Clouds.png)
+
 ---
 >20230723<br>
 >好久没有文字输出，这次也许是仰头掠过树梢那一眼的副作用。
@@ -94,7 +94,7 @@ tags: [山海, 酷熱, 雲, 廢墟, 热带雨林]
 ---
 2024年5月24日 <br>
 
-![](/img/red_island/boat.jpg)
+
 
 
 

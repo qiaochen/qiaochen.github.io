@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "山海历奇·南洋雜錦"
-date: 2022-12-12 09:00:00 -0000
+date: 2024-05-24 09:00:00 -0000
 description: # Add post description (optional)
 img: /red_island/ridge.jpg # Add image post (optional)
 fig-caption: 摄于旅途 # Add figcaption (optional)
-tags: [山海, 酷熱, 雲, 廢墟]
+tags: [山海, 酷熱, 雲, 廢墟, 热带雨林]
 ---
 
 ## 在盛夏的光阴里，倾听死者的声音
@@ -29,15 +29,22 @@ tags: [山海, 酷熱, 雲, 廢墟]
 
 我不知道自然她会何时带走森林里的夏天，<br>
 也不知道温柔的她会用多少时间把你收回她的怀抱。<br>
+
 我只是在漫无目的地找寻中稍驻，<br>
 妄图倾听沉默的死者的声音。<br>
 
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  blah |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://user-images.githubusercontent.com/297678/29892310-03e92256-8d83-11e7-9b58-986dcb6f702e.png">|
+
 ---
->2024年3月30日
+>2024年3月30日<br>
 >大约18个月，被封印在南洋永久的夏天中
 
 
-## 
+## 行者云
 
 那天，日光明媚，天空很蓝，<br>
 你悬浮在海面上，<br>
@@ -50,21 +57,37 @@ tags: [山海, 酷熱, 雲, 廢墟]
 
 你在空中彷徨，<br>
 我在地上流浪。<br>
-我感知着你，<br>
-而你终将离我远去-- <br>
+我感知着你——<br>
+竭尽所能却又悄无声息地。<br>
+
+而你终将离我远去——<br>
+徐缓、默不作声却了无牵挂地<br>
 盾入到你注定的宿命中去。 <br>
 
-我目送你离开，<br>
-在我视野之外的某个遥远时刻，<br>
-你会落成雨，<br>
-以水的形式介入生死，<br>
-在生命的际会之后在灰烬中重又归于天际。<br>
+于是我目送你离开。<br>
 
-如果还有下一场不期而遇，<br>
-下一世的你将会幻化出怎样的残存印记？<br>
+在某个遥远的时刻，<br>
+你会落成雨，<br>
+以水的形式介入生死：<br>
+体验神识，触碰记忆，<br>
+在生命的际会之后，<br>
+在湮灭之中再次失掉你经历的所有——<br>
+情绪、记忆，<br>
+一切随灰烬消失殆尽……<br>
+
+你会再次归于天际，<br>
+彷徨在海面上，无喜无悲；<br>
+我也仍然会在地面上流浪，<br>
+在望向天空的角落找寻你——<br>
+心无旁骛且不动声色地。<br>
+
+假如我们还会有下一场不期而遇，<br>
+下一世的你，<br>
+将会在天空中幻化出怎样的残存印记？<br>
 
 ---
->20230723
+>20230723<br>
+>好久没有文字输出，这次也许是仰头掠过树梢那一眼的副作用。
 ---------------------
 
 

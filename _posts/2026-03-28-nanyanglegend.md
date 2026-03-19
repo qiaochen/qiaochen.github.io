@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "架空故事集·南洋迷雾中的异国幽魂"
+title: "架空故事集·消失在雨林下的的异国幽魂"
 date: 2026-03-28 09:00:00 -0000
 description: # Add post description (optional)
 img: /nanyanglegend/map.jpg # Add image post (optional)

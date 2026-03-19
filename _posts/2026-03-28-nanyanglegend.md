@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "架空故事集·消失在雨林下的的异国幽魂"
+title: "架空故事集·消失在雨林之下的人"
 date: 2026-03-28 09:00:00 -0000
 description: # Add post description (optional)
 img: /nanyanglegend/map.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [昭南神社, 1942-1945, 宿命, 隐喻, 救赎]
 ---
+
+# 消失在雨林之下的人
 
 ## 序言
 新加坡的雨，是没有情绪的。

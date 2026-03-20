@@ -32,6 +32,8 @@
   {% else %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}" property="og:image">
   {% endif %}
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="600">
   {% if page.categories %}
     {% for category in page.categories limit:1 %}
     <meta content="{{ category }}" property="article:section">
@@ -65,10 +67,26 @@
     <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}">
   {% endif %}
 
-	<meta name="description" content="{{ page.description }}">
+  <!-- WeChat / Schema.org itemprop tags for sharing previews -->
+  {% if page.title %}
+    <meta itemprop="name" content="{{ page.title }}">
+  {% else %}
+    <meta itemprop="name" content="{{ site.title }}">
+  {% endif %}
+  {% if page.description %}
+    <meta itemprop="description" content="{{ page.description }}">
+  {% else %}
+    <meta itemprop="description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.img %}
+    <meta itemprop="image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}">
+  {% else %}
+    <meta itemprop="image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}">
+  {% endif %}
+
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta property="og:image" content="">
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 	<link rel="apple-touch-icon" href="{{ "/assets/img/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
 	<link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/img/favicon/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">

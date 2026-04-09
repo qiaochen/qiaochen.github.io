@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [水果, 海洋, 世界之水]
 ---
 
-![](/img/fruit_sea/fruit_sea.png)
+![](/img/fruit_sea/fruit_sea1.png)
 # 果腹之海
 
 一天五枚果子，<br>
@@ -22,6 +22,8 @@ tags: [水果, 海洋, 世界之水]
 我分明不是海，<br>
 
 世间各处的雨水，却在我的身体里交融。
+
+![](/img/fruit_sea/fruit_sea2.png)
 
 ---
 2026年4月9日<br>

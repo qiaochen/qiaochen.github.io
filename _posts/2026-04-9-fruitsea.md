@@ -3,12 +3,11 @@ layout: post
 title: "呓语录·果腹之海"
 date: 2026-04-09 09:00:00 -0000
 description: # Add post description (optional)
-img: /nanyanglegend/map.jpg # Add image post (optional)
+img: /fruit_sea/fruit_sea1.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [水果, 海洋, 世界之水]
 ---
 
-![](/img/fruit_sea/fruit_sea1.png)
 # 果腹之海
 
 一天五枚果子，<br>

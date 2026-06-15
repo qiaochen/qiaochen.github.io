@@ -11,11 +11,7 @@
 </head>
 <body class="book-page">
 <article class="book-reader" data-title="{{ page.title }}" data-cover="/img{{ page.img }}">
-  <div class="book-cover" id="book-cover">
-    <div class="cover-image-wrap">
-      <img src="/img{{ page.img }}" alt="{{ page.title }}">
-      <div class="cover-overlay"></div>
-    </div>
+  <div class="book-cover" id="book-cover" style="background-image: url('/img{{ page.img }}')">
     <div class="cover-text">
       <h1>{{ page.title }}</h1>
       <p class="cover-date">{{ page.date | date: "%Y.%m.%d" }}</p>

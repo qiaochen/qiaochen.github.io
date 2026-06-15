@@ -11,7 +11,7 @@
 </head>
 <body class="book-page">
 <article class="book-reader" data-title="{{ page.title }}" data-cover="/img{{ page.img }}">
-  <div class="book-cover" id="book-cover" style="background-image: url('/img{{ page.img }}')">
+  <div class="book-cover active" id="book-cover" style="background-image: url('/img{{ page.img }}')">
     <div class="cover-text">
       <h1>{{ page.title }}</h1>
       <p class="cover-date">{{ page.date | date: "%Y.%m.%d" }}</p>
@@ -111,7 +111,6 @@
   }
 
   function render() {
-    // Hide all
     bookCover.classList.remove('active');
     bookToc.classList.remove('active');
     var pages = content.querySelectorAll('.chapter-page');
@@ -137,7 +136,8 @@
     window.scrollTo(0, 0);
   }
 
-  coverStart.addEventListener('click', function() {
+  // Cover: click anywhere to proceed
+  bookCover.addEventListener('click', function() {
     goTo(-1);
   });
 
@@ -157,6 +157,25 @@
       if (current > -2) goTo(current - 1);
     }
   });
+
+  // Touch swipe navigation
+  var touchStartX = 0;
+  var touchStartY = 0;
+  document.addEventListener('touchstart', function(e) {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+
+  document.addEventListener('touchend', function(e) {
+    var dx = e.changedTouches[0].screenX - touchStartX;
+    var dy = e.changedTouches[0].screenY - touchStartY;
+    if (Math.abs(dx) < 50 || Math.abs(dy) > Math.abs(dx)) return;
+    if (dx < 0 && current < total - 1) {
+      goTo(current + 1);
+    } else if (dx > 0 && current > -2) {
+      goTo(current - 1);
+    }
+  }, { passive: true });
 
   // Start at cover
   goTo(-2);

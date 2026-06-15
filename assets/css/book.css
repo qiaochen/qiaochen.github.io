@@ -11,18 +11,17 @@
 }
 
 /* === Base === */
+body:has(.book-reader) {
+  margin: 0;
+  padding: 0;
+  background: var(--book-dark);
+}
+
 .book-reader {
   font-family: 'Noto Serif SC', 'Songti SC', 'STSong', serif;
   color: var(--book-ink);
   background: var(--book-paper);
   min-height: 100vh;
-}
-
-/* Override theme wrapper */
-.wrapper:has(.book-reader) {
-  max-width: none;
-  padding: 0;
-  margin: 0;
 }
 
 /* === Cover Page === */

@@ -1,7 +1,7 @@
----
-layout: default
----
-
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
 <link rel="stylesheet" href="/assets/css/book.css">
 <article class="book-reader" data-title="{{ page.title }}" data-cover="/img{{ page.img }}">
   <div class="book-cover" id="book-cover">
@@ -28,7 +28,7 @@ layout: default
   </nav>
 
   <div class="book-chapters" id="book-chapters">
-    <div class="wrap-content book-content">
+    <div class="book-content">
       {{ content }}
     </div>
   </div>
@@ -160,3 +160,5 @@ layout: default
 </script>
 
 {% include disqus.html %}
+</body>
+</html>

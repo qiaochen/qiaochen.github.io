@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: post
 title: "沉浮录·小窗里的人"
 date: 2026-05-30 12:00:00 +0800
 description: # Add post description (optional)

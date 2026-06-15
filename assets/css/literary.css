@@ -224,6 +224,16 @@
   margin: 40px 0;
 }
 
+/* ---- Page-rhythm dividers (visual breathing room every ~18 paragraphs) ---- */
+.literary-content > p:nth-of-type(18n)::after {
+  content: "";
+  display: block;
+  width: 28mm;
+  height: 0.5px;
+  background: rgba(97, 89, 76, 0.28);
+  margin: 36px auto 24px;
+}
+
 /* ---- Links ---- */
 .literary-content a {
   color: #5a4a3a;

@@ -1,0 +1,308 @@
+/* ============================================================
+   Literary Layout — Book-like rendering for long-form fiction
+   Scoped under .literary-page to avoid affecting other posts
+   ============================================================ */
+
+:root {
+  --lit-paper: #f3efe6;
+  --lit-paper2: #ebe4d8;
+  --lit-ink: #2f2d2a;
+  --lit-muted: #746b60;
+  --lit-light: #9b9287;
+  --lit-rule: #d7cbb9;
+  --lit-card: rgba(255, 255, 255, 0.34);
+  --lit-card-border: #cfc2ad;
+}
+
+/* ---- Page Background ---- */
+.literary-page {
+  background: var(--lit-paper);
+}
+
+.literary-page .page-cover-image {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.literary-page .page-cover-image figure {
+  position: relative;
+  margin: 0;
+}
+
+.literary-page .page-cover-image .page-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---- Content Area ---- */
+.literary-content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+  color: var(--lit-ink);
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "PT Serif", serif;
+  font-size: 15px;
+  line-height: 1.92;
+  letter-spacing: 0.015em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Header ---- */
+.literary-content .header-page {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--lit-rule);
+}
+
+.literary-content .header-page .page-title {
+  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 0.12em;
+  color: #3d3731;
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+
+.literary-content .header-page .page-date {
+  color: var(--lit-muted);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* ---- Chapter Headings (h2) ---- */
+.literary-content h2 {
+  text-align: center;
+  color: #3d3731;
+  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.07em;
+  line-height: 1.5;
+  margin: 56px 0 28px;
+  padding-top: 20px;
+}
+
+.literary-content h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #b8aa98, transparent);
+  margin: 14px auto 0;
+}
+
+/* ---- Paragraphs ---- */
+.literary-content p {
+  margin: 0 0 12px;
+  text-align: left;
+}
+
+/* ---- Images / Figures ---- */
+.literary-content img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 32px auto;
+  border-radius: 4px;
+  box-shadow: 0 6px 22px rgba(45, 38, 30, 0.18);
+}
+
+.literary-content figure {
+  margin: 32px auto;
+  text-align: center;
+}
+
+.literary-content figure img {
+  margin: 0 auto 8px;
+}
+
+.literary-content figcaption,
+.literary-content img + em {
+  display: block;
+  text-align: center;
+  font-family: "Lato", "Noto Sans SC", sans-serif;
+  font-size: 12px;
+  color: var(--lit-muted);
+  letter-spacing: 0.08em;
+  margin-top: 8px;
+  font-style: normal;
+}
+
+/* ---- Blockquotes ---- */
+.literary-content blockquote {
+  margin: 28px 0;
+  padding: 20px 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.38), rgba(231, 222, 208, 0.30));
+  border: 1px solid var(--lit-card-border);
+  border-left: 3px solid #a69784;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.24);
+}
+
+.literary-content blockquote p {
+  font-size: 14px;
+  color: #4d463f;
+  line-height: 1.72;
+  margin-bottom: 8px;
+}
+
+.literary-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.literary-content blockquote strong {
+  font-family: "Noto Serif SC", serif;
+  font-size: 15px;
+  color: #3f382f;
+  letter-spacing: 0.08em;
+}
+
+/* ---- Tables ---- */
+.literary-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 28px;
+  font-family: "Noto Sans SC", "Lato", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #443e37;
+}
+
+.literary-content th,
+.literary-content td {
+  border: 1px solid #cfc3b3;
+  padding: 8px 12px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.literary-content th {
+  background: rgba(214, 202, 185, 0.55);
+  color: #40392f;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.literary-content td {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* ---- Horizontal Rules ---- */
+.literary-content hr {
+  border: 0;
+  height: 1px;
+  background: var(--lit-rule);
+  margin: 40px 0;
+}
+
+/* ---- Links ---- */
+.literary-content a {
+  color: #5a4a3a;
+  text-decoration: underline;
+  text-decoration-color: var(--lit-rule);
+  text-underline-offset: 3px;
+}
+
+.literary-content a:hover {
+  color: #3d3731;
+  text-decoration-color: #a69784;
+}
+
+/* ---- Page Footer (tags, share) ---- */
+.literary-content .page-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  margin: 40px 0;
+  border-bottom: 1px solid var(--lit-rule);
+}
+
+.literary-content .page-footer .page-share a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--lit-paper2);
+  border: 1px solid var(--lit-rule);
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: #5a4a3a;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  transition: background-color 0.3s;
+}
+
+.literary-content .page-footer .page-share a:first-child {
+  margin-left: 0;
+}
+
+.literary-content .page-footer .page-share a:hover {
+  background-color: var(--lit-rule);
+}
+
+.literary-content .page-footer .page-tag a {
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: #5a4a3a;
+  text-transform: uppercase;
+  border: 1px solid var(--lit-muted);
+}
+
+.literary-content .page-footer .page-tag a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .literary-content {
+    padding: 24px 16px 40px;
+    font-size: 14px;
+    line-height: 1.85;
+  }
+
+  .literary-content .header-page .page-title {
+    font-size: 22px;
+    letter-spacing: 0.06em;
+  }
+
+  .literary-content h2 {
+    font-size: 18px;
+    margin: 40px 0 20px;
+  }
+
+  .literary-content img {
+    margin: 24px auto;
+    border-radius: 3px;
+  }
+
+  .literary-content blockquote {
+    padding: 16px 18px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .literary-content {
+    padding: 16px 12px 32px;
+    font-size: 13.5px;
+  }
+
+  .literary-content .header-page .page-title {
+    font-size: 20px;
+  }
+
+  .literary-content h2 {
+    font-size: 16px;
+  }
+}

@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body>
-<link rel="stylesheet" href="/assets/css/book.css">
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/book.css">
+</head>
+<body class="book-page">
 <article class="book-reader" data-title="{{ page.title }}" data-cover="/img{{ page.img }}">
   <div class="book-cover" id="book-cover">
     <div class="cover-image-wrap">
@@ -84,6 +91,7 @@
     ch.elements.forEach(function(el) { page.appendChild(el); });
     content.appendChild(page);
   });
+  content.classList.add('js-ready');
 
   // Build TOC
   chapters.forEach(function(ch, i) {

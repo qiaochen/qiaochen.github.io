@@ -11,10 +11,13 @@
 }
 
 /* === Base === */
-body:has(.book-reader) {
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body.book-page {
   margin: 0;
   padding: 0;
   background: var(--book-dark);
+  font-family: 'Noto Serif SC', 'Songti SC', 'STSong', serif;
 }
 
 .book-reader {
@@ -182,12 +185,18 @@ body:has(.book-reader) {
 }
 
 /* Hide raw content before JS splits it into chapters */
-.book-chapters .book-content > h1,
-.book-chapters .book-content > h2,
-.book-chapters .book-content > p,
-.book-chapters .book-content > img,
-.book-chapters .book-content > blockquote {
-  display: none;
+.book-chapters .book-content {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+.book-chapters .book-content.js-ready {
+  visibility: visible;
+  height: auto;
+  overflow: visible;
 }
 
 .chapter-page {
@@ -196,12 +205,6 @@ body:has(.book-reader) {
   min-height: 80vh;
 }
 .chapter-page.active { display: block; }
-.chapter-page.active h2,
-.chapter-page.active p,
-.chapter-page.active img,
-.chapter-page.active blockquote {
-  display: revert;
-}
 
 .chapter-page h2 {
   font-size: 1.6rem;

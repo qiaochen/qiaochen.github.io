@@ -87,8 +87,14 @@
   font-size: 20px;
   letter-spacing: 0.07em;
   line-height: 1.5;
-  margin: 56px 0 28px;
-  padding-top: 20px;
+  margin: 80px 0 32px;
+  padding-top: 40px;
+  border-top: 1px solid var(--lit-rule);
+}
+
+.literary-content h2:first-of-type {
+  border-top: none;
+  margin-top: 0;
 }
 
 .literary-content h2::after {
@@ -98,6 +104,19 @@
   height: 1px;
   background: linear-gradient(90deg, transparent, #b8aa98, transparent);
   margin: 14px auto 0;
+}
+
+/* ---- Sub-chapter Headings (h3) ---- */
+.literary-content h3 {
+  text-align: center;
+  color: #4a433b;
+  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  margin: 48px 0 20px;
+  padding-top: 24px;
 }
 
 /* ---- Paragraphs ---- */
@@ -218,6 +237,23 @@
   text-decoration-color: #a69784;
 }
 
+/* ---- Print: chapter page breaks ---- */
+@media print {
+  .literary-content h2 {
+    break-before: page;
+    border-top: none;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  .literary-content h2:first-of-type {
+    break-before: avoid;
+  }
+  .literary-content h3 {
+    break-before: page;
+    padding-top: 20px;
+  }
+}
+
 /* ---- Page Footer (tags, share) ---- */
 .literary-content .page-footer {
   display: flex;
@@ -278,7 +314,14 @@
 
   .literary-content h2 {
     font-size: 18px;
-    margin: 40px 0 20px;
+    margin: 56px 0 24px;
+    padding-top: 32px;
+  }
+
+  .literary-content h3 {
+    font-size: 16px;
+    margin: 36px 0 16px;
+    padding-top: 18px;
   }
 
   .literary-content img {
@@ -304,5 +347,13 @@
 
   .literary-content h2 {
     font-size: 16px;
+    margin: 48px 0 20px;
+    padding-top: 28px;
+  }
+
+  .literary-content h3 {
+    font-size: 15px;
+    margin: 32px 0 14px;
+    padding-top: 14px;
   }
 }

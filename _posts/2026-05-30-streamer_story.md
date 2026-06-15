@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: literary
 title: "沉浮录·小窗里的人"
 date: 2026-05-30 09:00:00 -0000
 description: # Add post description (optional)
@@ -7,8 +7,6 @@ img: /streamer/flower.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [网络直播, 情感物化, 迷失, 孤独, 欲望]
 ---
-
-# 小窗里的人
 
 ## 黑丝御姐与猪猪
 
@@ -1070,7 +1068,9 @@ Lucky。
 
 
 ![](/img/streamer/flower.png)
+
 ---
+
 ### 后记
 
 

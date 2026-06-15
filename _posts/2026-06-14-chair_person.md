@@ -1,7 +1,7 @@
 ---
 layout: literary
 title: "沉浮录·椅子里的人"
-date: 2026-06-14 09:00:00 -0000
+date: 2088-06-14 09:00:00 -0000
 description: # Add post description (optional)
 img: /chair_person/cover_image.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)

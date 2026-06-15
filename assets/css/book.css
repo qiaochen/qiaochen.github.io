@@ -18,6 +18,13 @@
   min-height: 100vh;
 }
 
+/* Override theme wrapper */
+.wrapper:has(.book-reader) {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* === Cover Page === */
 .book-cover {
   display: none;
@@ -175,12 +182,27 @@
   padding: 0 1.5rem;
 }
 
+/* Hide raw content before JS splits it into chapters */
+.book-chapters .book-content > h1,
+.book-chapters .book-content > h2,
+.book-chapters .book-content > p,
+.book-chapters .book-content > img,
+.book-chapters .book-content > blockquote {
+  display: none;
+}
+
 .chapter-page {
   display: none;
   padding: 6vh 0 10vh;
   min-height: 80vh;
 }
 .chapter-page.active { display: block; }
+.chapter-page.active h2,
+.chapter-page.active p,
+.chapter-page.active img,
+.chapter-page.active blockquote {
+  display: revert;
+}
 
 .chapter-page h2 {
   font-size: 1.6rem;

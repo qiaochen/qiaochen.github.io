@@ -1,7 +1,7 @@
 ---
 layout: book
 title: "浮影集·椅子里的人"
-date: 2026-06-14 00:00:00 +0800
+date: 2088-06-14 00:00:00 +0800
 description: # Add post description (optional)
 img: /chair_person/cover_image.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)

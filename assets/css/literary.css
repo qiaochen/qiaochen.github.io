@@ -229,9 +229,9 @@
   content: "";
   display: block;
   width: 28mm;
-  height: 0.5px;
-  background: rgba(97, 89, 76, 0.28);
-  margin: 36px auto 24px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(180, 168, 152, 0.6), transparent);
+  margin: 40px auto 28px;
 }
 
 /* ---- Links ---- */

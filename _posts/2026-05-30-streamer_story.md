@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: book
 title: "沉浮录·小窗里的人"
-date: 2026-05-30 09:00:00 -0000
+date: 2026-05-30 00:00:00 +0800
 description: # Add post description (optional)
 img: /streamer/flower.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)

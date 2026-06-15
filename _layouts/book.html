@@ -1,0 +1,162 @@
+---
+layout: main
+---
+
+<article class="book-reader" data-title="{{ page.title }}" data-cover="/img{{ page.img }}">
+  <div class="book-cover" id="book-cover">
+    <div class="cover-image-wrap">
+      <img src="/img{{ page.img }}" alt="{{ page.title }}">
+      <div class="cover-overlay"></div>
+    </div>
+    <div class="cover-text">
+      <h1>{{ page.title }}</h1>
+      <p class="cover-date">{{ page.date | date: "%Y.%m.%d" }}</p>
+      <div class="cover-tags">
+        {% for tag in page.tags %}
+        <span class="cover-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <div class="cover-start" id="cover-start">开始阅读 ↓</div>
+    </div>
+  </div>
+
+  <nav class="book-toc" id="book-toc">
+    <h2 class="toc-title">目录</h2>
+    <div class="toc-list" id="toc-list"></div>
+    <div class="toc-note">点击章节名跳转</div>
+  </nav>
+
+  <div class="book-chapters" id="book-chapters">
+    <div class="wrap-content book-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <nav class="book-nav" id="book-nav">
+    <button class="nav-btn nav-prev" id="nav-prev" aria-label="上一章">‹</button>
+    <span class="nav-progress" id="nav-progress"></span>
+    <button class="nav-btn nav-next" id="nav-next" aria-label="下一章">›</button>
+  </nav>
+</article>
+
+<link rel="stylesheet" href="/assets/css/book.css">
+<script>
+(function() {
+  'use strict';
+
+  var chaptersWrap = document.getElementById('book-chapters');
+  var content = chaptersWrap.querySelector('.book-content');
+  var tocList = document.getElementById('toc-list');
+  var navPrev = document.getElementById('nav-prev');
+  var navNext = document.getElementById('nav-next');
+  var navProgress = document.getElementById('nav-progress');
+  var bookNav = document.getElementById('book-nav');
+  var coverStart = document.getElementById('cover-start');
+  var bookCover = document.getElementById('book-cover');
+  var bookToc = document.getElementById('book-toc');
+
+  // Split content into chapters by h2
+  var chapters = [];
+  var currentChapter = null;
+  var nodes = Array.from(content.children);
+
+  nodes.forEach(function(node) {
+    if (node.tagName === 'H2') {
+      if (currentChapter) chapters.push(currentChapter);
+      currentChapter = { title: node.textContent.trim(), elements: [node] };
+    } else if (node.tagName === 'H1') {
+      // Skip h1 (overall title)
+    } else {
+      if (currentChapter) {
+        currentChapter.elements.push(node);
+      }
+    }
+  });
+  if (currentChapter) chapters.push(currentChapter);
+
+  // Build chapter pages
+  content.innerHTML = '';
+  chapters.forEach(function(ch, i) {
+    var page = document.createElement('section');
+    page.className = 'chapter-page';
+    page.id = 'chapter-' + i;
+    page.setAttribute('data-chapter', i);
+    ch.elements.forEach(function(el) { page.appendChild(el); });
+    content.appendChild(page);
+  });
+
+  // Build TOC
+  chapters.forEach(function(ch, i) {
+    var a = document.createElement('a');
+    a.href = '#';
+    a.className = 'toc-item';
+    a.innerHTML = '<span class="toc-num">' + String(i + 1).padStart(2, '0') + '</span>' + ch.title;
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      goTo(i);
+    });
+    tocList.appendChild(a);
+  });
+
+  var current = -2; // -2 = cover, -1 = toc, 0+ = chapters
+  var total = chapters.length;
+
+  function goTo(idx) {
+    current = idx;
+    render();
+  }
+
+  function render() {
+    // Hide all
+    bookCover.classList.remove('active');
+    bookToc.classList.remove('active');
+    var pages = content.querySelectorAll('.chapter-page');
+    pages.forEach(function(p) { p.classList.remove('active'); });
+
+    if (current === -2) {
+      bookCover.classList.add('active');
+      bookNav.classList.remove('visible');
+    } else if (current === -1) {
+      bookToc.classList.add('active');
+      bookNav.classList.add('visible');
+      navProgress.textContent = '目录';
+    } else {
+      var page = content.querySelector('#chapter-' + current);
+      if (page) page.classList.add('active');
+      bookNav.classList.add('visible');
+      navProgress.textContent = (current + 1) + ' / ' + total;
+    }
+
+    navPrev.disabled = (current <= -2);
+    navNext.disabled = (current >= total - 1);
+
+    window.scrollTo(0, 0);
+  }
+
+  coverStart.addEventListener('click', function() {
+    goTo(-1);
+  });
+
+  navPrev.addEventListener('click', function() {
+    if (current > -2) goTo(current - 1);
+  });
+
+  navNext.addEventListener('click', function() {
+    if (current < total - 1) goTo(current + 1);
+  });
+
+  // Keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+      if (current < total - 1) goTo(current + 1);
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      if (current > -2) goTo(current - 1);
+    }
+  });
+
+  // Start at cover
+  goTo(-2);
+})();
+</script>
+
+{% include disqus.html %}
